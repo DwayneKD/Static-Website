@@ -19,4 +19,4 @@ jobs:
          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
          AWS_DEFAULT_REGION: eu-north-1 # Replace with your AWS region
        run: |
-         aws s3 sync . s3://portfolio-webby13
+         aws s3 sync . s3://dwayneriley.com
